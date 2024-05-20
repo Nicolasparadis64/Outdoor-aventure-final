@@ -1,0 +1,284 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    font-family: 'Montserrat';
+    background-color: #f5f5f5;
+}
+
+nav {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-left: 20px;
+    padding-right: 20px;
+
+}
+
+nav .logo {
+    max-width: 150px;
+    height: 42px;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin: 0;
+    padding-top: 16px;
+    padding-bottom: 16px;
+}
+
+nav .Onglets {
+
+    margin-left: 200px;
+    display: flex;
+    align-items: center;
+}
+
+nav .Onglets a {
+    text-decoration: none;
+    color: white;
+    padding-left: 16px;
+    padding-right: 16px;
+    font-size: 100%
+}
+
+nav .submit {
+    font-family: "Noto sans", sans-serif;
+    background-color: rgb(251, 32, 86);
+    border-radius: 30px;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    padding-left: 40px;
+    padding-right: 40px;
+    font-size: 0.874rem;
+    font-family: Noto Sans, sans-serif;
+    font-weight: 700;
+    transition: all 1s ease-out;
+    border: none;
+
+}
+
+nav .submit:hover {
+    background-color: rgb(187, 31, 70);
+}
+
+body button {
+    font-family: "Noto sans", sans-serif;
+    color: white;
+    font-weight: 400;
+    font-size: 16px;
+    font-size: 1rem;
+    line-height: var(--ast body line-height, 1.7em);
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    height: 680px;
+
+}
+
+.container {
+    background-image: url(https://websitedemos.net/outdoor-adventure-02/wp-content/uploads/sites/351/2018/11/about-bg-5.jpg);
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    height: 680px;
+    background-attachment: fixed;
+}
+
+.filtre {
+    background-color: rgba(0, 0, 0, 0.5);
+    height: 100%;
+}
+
+header .header-button {
+    font-family: "Noto sans", sans-serif;
+    background-color: rgb(251, 32, 86);
+    border-radius: 30px;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    padding-left: 40px;
+    padding-right: 40px;
+    font-size: 0.874rem;
+    font-family: Noto Sans, sans-serif;
+    font-weight: 700;
+}
+
+.main {
+    margin-left: 375px;
+    margin-right: 375px;
+    ;
+    padding-top: 180px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.main h2 {
+    font-size: 1.5rem;
+    margin: 0;
+    text-align: center;
+}
+
+.main .bordure-h2 {
+    padding: 10px;
+    color: rgb(251, 32, 86);
+    ;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 358.797;
+    margin-right: 358.797;
+}
+
+header h1 {
+    display: flex;
+    font-size: 4rem;
+    margin-top: 0;
+    white-space: nowrap;
+}
+
+header .header-button {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    right: 48px;
+    border-radius: 30px;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    padding-left: 40px;
+    padding-right: 40px;
+    font-size: 0.874rem;
+}
+
+.container-main {
+    margin-left: 150px;
+    margin-right: 150px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    gap: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.box1 {
+    padding-top: 100px;
+    ;
+    padding-bottom: 90px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 225.5px;
+    margin-right: 225.5px;
+
+}
+
+.photo1 {
+    max-width: 800px;
+    padding-left: 0;
+    padding-right: 0;
+    margin: 0;
+    filter: brightness(105%) contrast(96%) saturate(74%) blur(0px) hue-rotate(347deg);
+    border-radius: 4px 4px 4px 4px;
+    object-fit: auto;
+    object-position: center;
+    width: 100%;
+    box-shadow: 10px 10px 0px 1px rgba(0, 0, 0, 0.07);
+    filter: blur(0px);
+    align-self: stretch;
+}
+
+.bordure-h2 {
+
+    border-color: rgba(251, 32, 86, 1);
+    border-top-width: 1px;
+    background-color: rgba(251, 32, 86, 1);
+    ;
+    width: 90px;
+    height: 3px;
+
+}
+
+.box2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding-right: 100px;
+    padding: 20px;
+    flex-wrap: wrap;
+    row-gap: 20px;
+    height: 100%;
+    width: 100%;
+}
+
+.box2 .titre1 {
+    font-family: "montserrat";
+    font-size: 34px;
+    font-weight: bold;
+}
+
+.texte2 {
+    font-size: 16px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.bloc-3p {
+    padding-right: 5px;
+    padding-left: 10px;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container2-box1 {
+    padding-top: 40px;
+    ;
+    padding-bottom: 100px;
+    display: flex;
+    justify-content: center;
+    margin-left: 225.5px;
+    margin-right: 225.5px;
+    flex-wrap: nowrap;
+    text-align: start;
+}
+
+footer .div-42 {
+    margin-bottom: 28px;
+}
+
+.div-40 {
+    justify-content: center;
+    align-items: center;
+    background-color: #191919;
+    display: flex;
+    margin-top: 114px;
+    width: 100%;
+    font-size: 16px;
+    color: #fff;
+    font-weight: 400;
+    text-align: center;
+    line-height: 170%;
+    padding: 46px 60px;
+}
